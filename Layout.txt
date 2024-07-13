@@ -1,0 +1,44 @@
+1. Pages
+- Home 
+    - Events and Promotions
+    - Customer Reviews
+- About 
+    - FAQs
+- Socials
+    - Social Media 
+    - Blogs
+- Contact
+    - Locations
+    - Newsletter Signup 
+- Services
+
+2. Contents
+i.) Home Pages
+    - Introduction 
+    - Events and Promotions (Slider)
+        - Upcomming Events
+        - Promotions of events at other places
+    - Customer Reviews (Again, slider)
+
+ii.) About Page
+    - About
+    - History
+    - Vision and Mission
+    - FAQs
+
+iii.) Socials Page
+    - Social Media Posts (slider or something related)
+    - Blogs (Again, slider or something related)
+
+iv.) Contact Us Page
+    - Locations Section and corresponding Maps 
+    - Newsletter form
+
+v.) Services Page
+    - Display of services like movie screenings, special events, and more
+
+Add-Ons
+- In the footer, add the website feedback section as a modal
+
+
+(Please add more input, if any)
