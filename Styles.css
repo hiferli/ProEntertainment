@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.slidesContainer {
+    width: 100%;
+    height: 10vh;
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.slide1 {
+    height: 91vh !important;
+}
+
+.slide2 {
+    background-color: green;
+}
+
+.slide3 {
+    background-color: orange;
+}
+
+#introduction {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.image {
+    flex: 1; /* Takes up space on the left */
+}
+
+.content {
+    flex: 1; /* Takes up space on the right */
+    text-align: left; /* Align text to the left */
+}
+
+/* Optional: Add some padding or margin for better spacing */
+.image img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content {
+    padding: 20px; /* Add padding as needed */
+}
