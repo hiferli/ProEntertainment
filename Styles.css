@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* overflow-y: hidden; */
 }
 
 .slidesContainer {
@@ -23,9 +24,6 @@
     height: 91vh !important;
 }
 
-.slide2 {
-    background-color: green;
-}
 
 .slide3 {
     background-color: orange;
@@ -54,3 +52,22 @@
 .content {
     padding: 20px; /* Add padding as needed */
 }
+
+.carousel {
+    height: 100vh; /* Full screen height */
+}
+.carousel-item {
+    height: 100vh; /* Full screen height for each item */
+}
+.carousel-item img {
+    width: 100vw; /* Full screen width */
+    height: 100vh; /* Full screen height */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
