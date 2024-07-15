@@ -43,7 +43,7 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="./About/About.html">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Our Services</a>
@@ -277,5 +277,17 @@
         ></script>
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         <script src="Index.js"></script>
+        <script>
+            // JavaScript to handle active navigation link
+            document.addEventListener("DOMContentLoaded", function() {
+                var currentLocation = window.location.pathname.split("/").pop();
+                var navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(function(link) {
+                    if (link.getAttribute('href') === currentLocation) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

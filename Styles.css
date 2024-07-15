@@ -70,3 +70,51 @@
     border-radius: 5px;
 }
 
+
+.carousel {
+    height: 100vh; /* Full screen height */
+}
+.carousel-item {
+    height: 100vh; /* Full screen height for each item */
+}
+.carousel-item img {
+    width: 100vw; /* Full screen width */
+    height: 100vh; /* Full screen height */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+        /* Custom CSS for controlling carousel size */
+
+.carousel-item{
+    background-color: black;
+}
+.overlay-image {
+    
+    opacity: 0.7;
+    height: 80vh; 
+    
+    
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+   
+}
+#cursText{
+    transform: translateY(50%);
+    color: white;
+    
+} 
+#faq{
+    text-align: center;
+}
+#faqButton{
+    background-color: rgb(139, 111, 150);
+    border: solid black 1px;
+}
