@@ -10,22 +10,27 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
-        <link rel="icon" type="image/x-icon" href="./Assets/Favicon.png" />
-        <link rel="stylesheet" href="../Styles.css">
+        <link rel="icon" type="image/x-icon" href="../Assets/Favicon.png" />
+        <link rel="stylesheet" href="../Styles.css" />
+        <link rel="stylesheet" href="./Style.css">
     </head>
     <body>
-
         <!-- Nav Bar -->
         <nav
             class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body"
-            data-bs-theme="light"
+            data-bs-theme="dark"
         >
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../Assets/Logo.png" alt="Logo" width="60" height="54">
+                    <img
+                        src="../Assets/Logo-Light.png"
+                        alt="Logo"
+                        width="60"
+                        height="54"
+                    />
                     <a class="navbar-brand" href="#">ProEntertainment</a>
-                  </a>
-                
+                </a>
+
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -43,7 +48,10 @@
                 >
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../Index.html"
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="../Index.html"
                                 >Home</a
                             >
                         </li>
@@ -85,138 +93,282 @@
         </nav>
 
         <!-- Core Body Starts -->
-        
-        <div id="carousel-container" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel-container" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel-container" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel-container" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
+        <div
+            id="carousel-container"
+            class="carousel slide"
+            data-bs-ride="carousel"
+        >
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <div class="overlay-image" style="background-image: url('../Assets/carousel_Img1.jfif');"><br>
-                    <figure class="text-center">
-                        <blockquote id="cursText" class="blockquote">
-                          <h1 class="text-decoration-underline">About</h1>
-                          <p>Welcome to Pro Entertainment, your premier destination for an exceptional cinematic experience. Established with a passion for movies and a commitment to excellence, Pro Entertainment offers state-of-the-art theaters equipped with the latest in audio-visual technology, ensuring an immersive and unforgettable viewing experience. Our diverse selection of films, ranging from the latest blockbusters to timeless classics, caters to all movie enthusiasts. At Pro Entertainment, we believe in creating a vibrant community where film lovers can come together to enjoy the magic of cinema. Join us for an unparalleled movie experience and become part of the Pro Entertainment family today.</p>
-                        </blockquote>
-                       
-                      </figure>
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div
+                        class="d-flex flex-column min-vh-100 justify-content-center align-items-center container p-5 aboutCarousel"
+                    >
+                        <h1>About</h1>
+                        <p class="text-justify">
+                            ProEntertainment was founded in 2024 by a group of
+                            passionate film enthusiasts who envisioned a new
+                            standard for movie theaters. Starting with a single
+                            location in the heart of the city, we quickly became
+                            a favorite among locals for our superior sound and
+                            visual quality. Today, ProEntertainment boasts over
+                            20 theaters nationwide, each designed to provide an
+                            unparalleled cinematic experience. Our journey has
+                            been marked by a dedication to innovation, quality,
+                            and community, and we look forward to continuing our
+                            legacy for years to come.
+                        </p>
+                    </div>
                 </div>
-                
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <div class="overlay-image" style="background-image: url('../Assets/carousel_Img1.jfif');">
-                    <br>
-                    <figure class="text-center">
-                        <blockquote id="cursText" class="blockquote">
-                          <h1 class="text-decoration-underline">History</h1>
-                          <p>Pro Entertainment was founded in 2010 by a group of passionate film enthusiasts who envisioned a new standard for movie theaters. Starting with a single location in the heart of the city, we quickly became a favorite among locals for our superior sound and visual quality. By 2015, we had expanded to five locations, each equipped with state-of-the-art projectors and comfortable seating. In 2018, we introduced our signature IMAX experience, attracting moviegoers from neighboring cities. Today, Pro Entertainment boasts over 20 theaters nationwide, each designed to provide an unparalleled cinematic experience. Our journey has been marked by a dedication to innovation, quality, and community, and we look forward to continuing our legacy of entertainment excellence for years to come.</p>
-                        </blockquote>
-                        
-                      </figure>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div
+                        class="d-flex flex-column min-vh-100 justify-content-center align-items-center container p-5 aboutCarousel"
+                    >
+                        <h1>History</h1>
+                        <p class="text-justify">
+                            ProEntertainment was founded in 2024 by a group of
+                            passionate film enthusiasts who envisioned a new
+                            standard for movie theaters. Starting with a single
+                            location in the heart of the city, we quickly became
+                            a favorite among locals for our superior sound and
+                            visual quality. Today, ProEntertainment boasts over
+                            20 theaters nationwide, each designed to provide an
+                            unparalleled cinematic experience. Our journey has
+                            been marked innovation and quality, and we look forward to continuing our
+                            legacy of entertainment.
+                        </p>
+                    </div>
                 </div>
-               
-              </div>
-              <div class="carousel-item">
-                <div class="overlay-image" style="background-image: url('../Assets/carousel_Img1.jfif');">
-                    <br>
-                    <figure class="text-center">
-                        <blockquote id="cursText" class="blockquote">
-                          <h1 class="text-decoration-underline">Vision and Mission</h1>
-                          <p>At Pro Entertainment, our vision is to redefine the cinematic experience through cutting-edge technology and exceptional customer service. We aim to be the leading cineplex chain, offering diverse and inclusive entertainment that captivates audiences of all ages.
-
-                            Our mission is to deliver unparalleled movie experiences that delight and engage. We provide top-tier amenities and exceptional service, curating a diverse selection of films to foster a love for cinema in our community. We strive to build lasting relationships with our customers, making Pro Entertainment the go-to destination for all movie lovers.
-                            
-                            
-                            
-                            
-                            
-                            
-                            </p>
-                        </blockquote>
-                        
-                      </figure>
+                <div class="carousel-item">
+                    <div
+                        class="d-flex flex-column min-vh-100 justify-content-center align-items-center container p-5 aboutCarousel"
+                    >
+                        <h1>Vision and Missoin</h1>
+                        <p class="text-justify">
+                            At Pro Entertainment, our vision is to redefine the
+                            cinematic experience through cutting-edge technology
+                            and exceptional customer service. We aim to be the
+                            leading cineplex chain, offering diverse and
+                            inclusive entertainment that captivates audiences of
+                            all ages. Our mission is to deliver unparalleled
+                            movie experiences that delight and engage. We
+                            provide top-tier amenities and exceptional service,
+                            curating a diverse selection of films to foster a
+                            love for cinema in our community. 
+                        </p>
+                    </div>
                 </div>
-                
-              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-container" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel-container"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-container" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel-container"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
-    <!--FAQ Section-->
-    <div id='faq' class="container-fluid">
-        <button id="faqButton" type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            FAQs
-          </button>
-          
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">FAQs</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Q: What are the operating hours of Pro Entertainment Cineplex?
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>Ans:</strong>  Our cineplex is open from 10:00 AM to 11:00 PM daily. Operating hours may vary on holidays and special occasions.
-                            </div>
-                          </div>
+        </div>
+
+        <!--FAQ Section-->
+        <div id="faq" class="container-fluid">
+            <button
+                id="faqButton"
+                type="button"
+                class="faq-button btn btn-primary p-4 position-absolute bottom-0 end-0 m-3"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+            >
+                FAQs
+            </button>
+
+            <!-- Modal -->
+            <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1
+                                class="modal-title fs-5"
+                                id="staticBackdropLabel"
+                            >
+                                FAQs
+                            </h1>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
                         </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Q: Where is Pro Entertainment Cineplex located?
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>Ans:</strong> We have multiple locations nationwide. Please visit our Locations page to find the cineplex nearest to you.
+                        <div class="modal-body">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne"
+                                            aria-expanded="true"
+                                            aria-controls="collapseOne"
+                                        >
+                                            Q: What are the operating hours of
+                                            Pro Entertainment Cineplex?
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id="collapseOne"
+                                        class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample"
+                                    >
+                                        <div class="accordion-body">
+                                            <strong>Ans:</strong> Our cineplex
+                                            is open from 10:00 AM to 11:00 PM
+                                            daily. Operating hours may vary on
+                                            holidays and special occasions.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo"
+                                            aria-expanded="false"
+                                            aria-controls="collapseTwo"
+                                        >
+                                            Q: Where is Pro Entertainment
+                                            Cineplex located?
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id="collapseTwo"
+                                        class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample"
+                                    >
+                                        <div class="accordion-body">
+                                            <strong>Ans:</strong> We have
+                                            multiple locations nationwide.
+                                            Please visit our Locations page to
+                                            find the cineplex nearest to you.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree"
+                                            aria-expanded="false"
+                                            aria-controls="collapseThree"
+                                        >
+                                            Q: How can I purchase tickets?
+                                        </button>
+                                    </h2>
+                                    <div
+                                        id="collapseThree"
+                                        class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample"
+                                    >
+                                        <div class="accordion-body">
+                                            <strong>Ans:</strong> Tickets can be
+                                            purchased online through our website
+                                            or mobile app, as well as at the box
+                                            office at any of our locations.
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Q: How can I purchase tickets?
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                            >
+                                Close
                             </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>Ans:</strong> Tickets can be purchased online through our website or mobile app, as well as at the box office at any of our locations.
-                            </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  
-                </div>
-              </div>
             </div>
-          </div>
-      
-    
-      </div>
+        </div>
 
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center text-lg-start">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img
+                            src="../Assets/Logo-Light.png"
+                            alt="Logo"
+                            class="img-fluid mb-2"
+                            style="max-width: 100px"
+                        />
 
-      <!--Scritpting-->
+                        <h5>ProEntertainment</h5>
+                        <p>
+                            Your gateway to unforgettable events and
+                            experiences.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h5 class="text-uppercase">Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li>
+                                <a href="#" class="text-white">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Our Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h5 class="text-uppercase">Contact</h5>
+                        <p>Email: info@proentertainment.com</p>
+                        <p>Phone: +1 234 567 890</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center p-3" style="background-color: #222">
+                © 2024 ProEntertainment. All rights reserved.
+            </div>
+        </footer>
+
+        <!--Scritpting-->
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -227,12 +379,12 @@
         <script src="Index.js"></script>
         <script>
             // JavaScript to handle active navigation link
-            document.addEventListener("DOMContentLoaded", function() {
+            document.addEventListener("DOMContentLoaded", function () {
                 var currentLocation = window.location.pathname.split("/").pop();
-                var navLinks = document.querySelectorAll('.nav-link');
-                navLinks.forEach(function(link) {
-                    if (link.getAttribute('href') === currentLocation) {
-                        link.classList.add('active');
+                var navLinks = document.querySelectorAll(".nav-link");
+                navLinks.forEach(function (link) {
+                    if (link.getAttribute("href") === currentLocation) {
+                        link.classList.add("active");
                     }
                 });
             });

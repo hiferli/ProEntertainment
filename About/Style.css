@@ -1,0 +1,46 @@
+.aboutCarousel {
+    text-align: justify;
+    padding: 50px !important;
+    color: white;
+}
+
+.about {
+    height: 91vh !important;
+}
+
+.carousel-item {
+    height: 87vh !important;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #292b2c,  #45484a , #c2bebe);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #292b2c , #45484a , #c2bebe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+#carousel-container {
+    height: 87vh !important;
+}
+
+.faq-button {
+    position: absolute;
+    z-index:50;
+    border-radius: 50%;
+    background-color: #5a6072 !important;
+    color: white !important;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.faq-button:hover {
+    opacity: 100%;
+    background-color: #0056b3 ;
+    transform: scale(1.05);
+}
+
+.faq-button:focus {
+    outline: none;
+}
