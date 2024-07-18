@@ -1,0 +1,69 @@
+.slides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: white;
+    height: 100vh; /* Ensure full height for alignment */
+}
+
+.slide1 {
+    background-image: url("https://static.euronews.com/articles/368437/1200x675_368437.jpg");
+    background-size: cover;
+    background-position: left center;
+}
+
+.slide2 {
+    background-image: url("https://blog.inevent.com/wp-content/uploads/2022/09/disfocus-convention-hall-background-busines-1-min-1180x570.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.slide3 {
+    background-image: url("https://media.licdn.com/dms/image/C4D12AQE8B9-Hz7bwqA/article-cover_image-shrink_720_1280/0/1645541458958?e=2147483647&v=beta&t=X10DeCY81cKkrT8UmHu29zLPdW03fE1XB5YCBrAmb4Q");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.slides:nth-child(1),
+.slides:nth-child(3) {
+    align-items: flex-start; /* Align left for first and third slides */
+}
+
+.slides:nth-child(2) {
+    align-items: flex-end; /* Align right for second slide */
+}
+
+.slides h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.slides p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 0; /* Remove default margin for proper alignment */
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    font-size: 3rem;
+    color: #ffcc00;
+    text-shadow: 0 0 5px #ffcc00, 0 0 10px #ff6600;
+    filter: brightness(1.2);
+}
+
+/* Add hover effect */
+.text:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
