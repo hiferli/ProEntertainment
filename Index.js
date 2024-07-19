@@ -15,7 +15,6 @@ var typed = new Typed("#word", {
 });
 
 var newsLetter=(function(){
-console.log("Akanksha")
     var prevNewsLettData=localStorage.getItem('newsLetterData');
     var curNewsLettData=[]
     
@@ -46,8 +45,9 @@ console.log("Akanksha")
 })();
 
 function submitingNewsLetterForm(){     
-    console.log("akanksha was....")
+    
     newsLetter();
+    document.getElementById("newsLetter").reset();
     
 
 }
